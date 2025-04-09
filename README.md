@@ -16,7 +16,7 @@ markdown file.
 
 ## Answers
 
-The time complexity of this algorithm is $\Theta(n^2)$. We loop through every element which takes $n$ time and each step we subarray the existing array to size $n-1$. This gives us that the complexity is $(n-1)+(n-2)+(n-3)...+1= \frac{n(n-1)}{2}=\Theta(n^2)$.
+The time complexity of this algorithm is $\Theta(n^2)$. We loop through every element which takes $n$ time and each step we subarray the existing array to size $n-1$. This gives us that the complexity is $(n-1)+(n-2)+(n-3)...+1= \frac{n(n-1)}{2} \in \Theta(n^2)$.
 
 ## Sources
 
